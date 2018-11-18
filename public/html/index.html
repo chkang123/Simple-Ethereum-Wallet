@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<title>SimpleEthereumWallet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-xs-center">
+                    <br>
+                    <h3>Simple Ethereum Wallet</h3>
+                    <br>
+                    <table id = "myTable" border="1" bordercolor="black" width ="500"  align = "left" >
+                        <tr align = "left" bgcolor="white">
+                          <td>
+                            <div class="form-group">
+                            <label for="transmitter">Transmitter</label>
+                            <select class="selectTransmitter">
+                                <option name="test2">Test2</option>
+                                <option name="test3">Test3</option>
+                            </select>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr align = "left" bgcolor="white">
+                          <td>
+                            <div class="form-group">
+                            <label for="recipient">Recipient</label>
+                            <input type="text" class="form-control" id="recipient">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr align = "left" bgcolor="white">
+                          <td>
+                            <div class="form-group">
+                            <label for="value">Value</label>
+                            <input type="text" class="form-control" id="value">
+                            <label for="value">ETH</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr align = "left" bgcolor="white">
+                          <td>
+                            <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="text" class="form-control" id="password">
+                            <button onclick="send()" class="btn btn-primary">Send</button>
+                            </div>
+                          </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+	<script type="text/javascript" src="/js/main.js"></script>
+    </body>
+</html>
